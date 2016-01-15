@@ -1,0 +1,89 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: blanchedalmond;
+  width: 100%;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  margin: 30px 0;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  font-size: 4em;
+  color: #F7361B;
+}
+#display {
+  border: 5px solid #444;
+  max-width: 476px;
+  text-align: -webkit-center;
+  margin: auto;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 10px;
+  background: rgb(68, 68, 68);
+  font-family: "Helvetica Neue", Helvetica;
+  color: white;
+  font-weight: 400;
+}
+#boardWrap {
+  width: 100%;
+  height: auto;
+}
+table {
+  border-spacing: 0;
+    margin: auto;
+    border: 5px solid #444;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+table tr td {
+  width: 60px;
+  height: 60px;
+  background: bisque;
+  text-align: -webkit-center;
+}
+
+table tr:nth-child(odd) td:nth-child(even) {
+  background: #986302;
+}
+
+table tr:nth-child(even) td:nth-child(odd) {
+  background: #986302;
+}
+
+table tr td:hover {
+  background: rgba(249, 203, 135, 0.84) !important;
+}
+img {
+  height: 50px;
+  width: 75%;
+  margin: auto;
+}
+tr td {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+/*.space {
+  height: 50px;
+  width: 12%;
+  float: left;
+  background: rgba(241, 177, 81, 0.49);
+  display: inline-block;
+}
+.even:nth-child(even) {
+  background: #986302;
+}
+.odd:nth-child(odd) {
+  background: #986302;
+}*/
+

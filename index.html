@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.4/jquery-ui.min.js"></script>
+
+    <script charset="utf-8" src="app.js"></script>
+    <link rel="stylesheet" href="chess.css" />
+</head>
+<body>
+  <h1>Firechess</h1>
+  <div id="display">
+    <span id="rank">Piece</span>
+    <span id="rankLocation">(Current tile) </span>
+    <span>=> has moved to =></span>
+    <span id="newRankLocation"> New tile</span>
+  </div>
+
+  <div id="boardWrap">
+    <table id="board">
+    <tr>
+      <td><img src="rook_black.png" id="rookBlack"></td>
+      <td><img src="knight_black.png" id="knightBlack"></td>
+      <td><img src="bishop_black.png" id="bishopBlack"></td>
+      <td><img src="king_black.png" id="kingBlack"></td>
+      <td><img src="queen_black.png" id="queenBlack"></td>
+      <td><img src="bishop_black.png" id="bishopBlack"></td>
+      <td><img src="knight_black.png" id="knightBlack"></td>
+      <td><img src="rook_black.png" id="rookBlack"></td>
+    </tr>
+    <tr>
+      <td><img src="pawn_black.png" id="pawnBlack"></td>
+      <td><img src="pawn_black.png" id="pawnBlack"></td>
+      <td><img src="pawn_black.png" id="pawnBlack"></td>
+      <td><img src="pawn_black.png" id="pawnBlack"></td>
+      <td><img src="pawn_black.png" id="pawnBlack"></td>
+      <td><img src="pawn_black.png" id="pawnBlack"></td>
+      <td><img src="pawn_black.png" id="pawnBlack"></td>
+      <td><img src="pawn_black.png" id="pawnBlack"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><img src="pawn_white.png" id="pawnWhite"></td>
+      <td><img src="pawn_white.png" id="pawnWhite"></td>
+      <td><img src="pawn_white.png" id="pawnWhite"></td>
+      <td><img src="pawn_white.png" id="pawnWhite"></td>
+      <td><img src="pawn_white.png" id="pawnWhite"></td>
+      <td><img src="pawn_white.png" id="pawnWhite"></td>
+      <td><img src="pawn_white.png" id="pawnWhite"></td>
+      <td><img src="pawn_white.png" id="pawnWhite"></td>
+    </tr>
+    <tr>
+      <td><img src="rook_white.png" id="rookWhite"></td>
+      <td><img src="knight_white.png" id="knightWhite"></td>
+      <td><img src="bishop_white.png" id="bishopWhite"></td>
+      <td><img src="king_white.png" id="kingWhite"></td>
+      <td><img src="queen_white.png" id="queenWhite"></td>
+      <td><img src="bishop_white.png" id="bishopWhite"></td>
+      <td><img src="knight_white.png" id="knightWhite"></td>
+      <td><img src="rook_white.png" id="rookWhite"></td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
